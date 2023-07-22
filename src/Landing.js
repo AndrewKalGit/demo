@@ -33,7 +33,7 @@ function Landing(props) {
 
         <a
           href="#"
-          className="buttoncolorredhex mt-8 inline-block rounded px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring focus:ring-yellow-400"
+          className="buttoncolorredhex mt-8 inline-block rounded px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring focus:ring-yellow-400 z-10"
         >
           Get Started Today
         </a>
@@ -43,7 +43,7 @@ function Landing(props) {
 </section>
 <div class="grid grid-cols-1 gap-32 sm:gap-0 lg:grid-cols-3 h-full">
     <div> <img src={panfip1} class="hidden lg:block" alt='panflip1'/> </div>
-    <div class="h-96 pt-40 sm:pt-0"> <img class="panflip2" src={panfip2} alt="panflip2"/> </div>
+    <div class="h-96 pt-40 sm:pt-0"> <img class="panflip2 -z-10" src={panfip2} alt="panflip2"/> </div>
     <div class="h-96 mr-10 sm:mr-20">
          <h1 class="sm:pt-40 md:pt-32 lg:pt-24 text-4xl w-full font-bold text-right lg:line-clamp-none"> Who Are We? </h1>
         <p class="lg:line-clamp-none text-right mt-4 w-full text-xl font-semibold text-gray-800"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi reiciendis praesentium deleniti! Ratione consequuntur et corrupti aspernatur voluptatem rem ullam eveniet commodi veritatis. Tempore velit quod quis animi. Voluptas.</p>
