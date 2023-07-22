@@ -9,7 +9,7 @@ function Landing(props) {
 <>
 <section className="vh-x">
   <div
-    class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
+    class="mx-auto max-w-screen-2xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
   >
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-0">
       <div
