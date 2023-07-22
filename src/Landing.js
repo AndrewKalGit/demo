@@ -18,14 +18,14 @@ function Landing(props) {
         <img
           alt="Party"
           src={panflipmain}
-          className="inset-0 h-full w-full top-32 lg:object-cover"
+          className="inset-0 h-full widthpx lg:object-contain"
         />
       </div>
 
       <div class="lg:py-24">
         <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
 
-        <p class="mt-4 text-white">
+        <p class="mt-4 text-gray-800">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
           atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
           veniam tempora deserunt? Molestiae eius quidem quam repellat.
@@ -41,22 +41,31 @@ function Landing(props) {
     </div>
   </div>
 </section>
-<div class="grid grid-cols-3 h-full ">
-    <div> <img src={panfip1} class="xl:absolute -bottom-10" alt='panflip1'/> </div>
-    <div class="h-96">
-         <h1 class="text-4xl w-full font-bold text-center line-clamp-5 lg:line-clamp-none"> Who Are We? </h1>
-        <p class="line-clamp-6 lg:line-clamp-none text-center mt-4 w-full text-xl"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi reiciendis praesentium deleniti! Ratione consequuntur et corrupti aspernatur voluptatem rem ullam eveniet commodi veritatis. Tempore velit quod quis animi. Voluptas.</p>
+<div class="grid grid-cols-1 gap-32 sm:gap-0 lg:grid-cols-3 h-full">
+    <div> <img src={panfip1} class="hidden lg:block" alt='panflip1'/> </div>
+    <div class="h-96 "> <img src={panfip2} alt="panflip2"/> </div>
+    <div class="h-96 mr-10 sm:mr-20">
+         <h1 class="sm:pt-40 md:pt-32 lg:pt-24 text-4xl w-full font-bold text-right lg:line-clamp-none"> Who Are We? </h1>
+        <p class="lg:line-clamp-none text-right mt-4 w-full text-xl"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi reiciendis praesentium deleniti! Ratione consequuntur et corrupti aspernatur voluptatem rem ullam eveniet commodi veritatis. Tempore velit quod quis animi. Voluptas.</p>
+
+        <div class="flex justify-end">
+         <button
+          href="#"
+          className="buttoncolorredhex mt-8 rounded px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring focus:ring-yellow-400 flex justify-end"
+        >
+              <span class="text-right">Learn More</span>
+        </button>
      </div>
-    <div class="h-96"> <img src={panfip2} alt="panflip2"/> </div>
+     </div>
 </div>
-<section class="">
+<section class="pt-6 md:pt-4 lg:pt-2">
    <section class=".bg-yellow-hex">
-  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-24 lg:px-8">
+  <div class="mx-auto max-w-screen-xl px-16 sm:px-6 sm:py-24 mb-2 lg:px-8">
     <h2 class="text-center text-4xl font-bold tracking-tight sm:text-5xl">
       Read trusted reviews from our customers
     </h2>
 
-    <div class="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+    <div class="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
       <blockquote class="rounded-lg bg-green p-8">
         <div class="flex items-center gap-4">
           <img

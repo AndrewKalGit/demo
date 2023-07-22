@@ -4,9 +4,9 @@ import logo from './logo192.png'
 function Nav(props) {
     return (
 <header className="bg-yellow-hex bg-white">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl px-4 sm:px-4 lg:px-6">
     <div class="flex h-16 items-center justify-between">
-      <div class="md:flex md:items-center md:gap-12">
+      <div class="md:flex md:items-center md:gap-10">
         <a class="block" href="/">
           <span class="sr-only">Home</span>
             <img class="w-96 pt-12" src={logo} alt="logo"/>
