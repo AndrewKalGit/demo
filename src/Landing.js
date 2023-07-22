@@ -25,7 +25,7 @@ function Landing(props) {
       <div class="lg:py-24">
         <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
 
-        <p class="mt-4 text-gray-800">
+        <p class="mt-4 text-xl font-semibold text-gray-800">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
           atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
           veniam tempora deserunt? Molestiae eius quidem quam repellat.
@@ -43,10 +43,10 @@ function Landing(props) {
 </section>
 <div class="grid grid-cols-1 gap-32 sm:gap-0 lg:grid-cols-3 h-full">
     <div> <img src={panfip1} class="hidden lg:block" alt='panflip1'/> </div>
-    <div class="h-96 "> <img src={panfip2} alt="panflip2"/> </div>
+    <div class="h-96 pt-40 sm:pt-0"> <img class="panflip2" src={panfip2} alt="panflip2"/> </div>
     <div class="h-96 mr-10 sm:mr-20">
          <h1 class="sm:pt-40 md:pt-32 lg:pt-24 text-4xl w-full font-bold text-right lg:line-clamp-none"> Who Are We? </h1>
-        <p class="lg:line-clamp-none text-right mt-4 w-full text-xl"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi reiciendis praesentium deleniti! Ratione consequuntur et corrupti aspernatur voluptatem rem ullam eveniet commodi veritatis. Tempore velit quod quis animi. Voluptas.</p>
+        <p class="lg:line-clamp-none text-right mt-4 w-full text-xl font-semibold text-gray-800"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi reiciendis praesentium deleniti! Ratione consequuntur et corrupti aspernatur voluptatem rem ullam eveniet commodi veritatis. Tempore velit quod quis animi. Voluptas.</p>
 
         <div class="flex justify-end">
          <button
@@ -60,7 +60,7 @@ function Landing(props) {
 </div>
 <section class="pt-6 md:pt-4 lg:pt-2">
    <section class=".bg-yellow-hex">
-  <div class="mx-auto max-w-screen-xl px-16 sm:px-6 sm:py-24 mb-2 lg:px-8">
+  <div class="mx-auto max-w-screen-xl px-16 sm:px-6 sm:py-24 mb-10 lg:px-8">
     <h2 class="text-center text-4xl font-bold tracking-tight sm:text-5xl">
       Read trusted reviews from our customers
     </h2>

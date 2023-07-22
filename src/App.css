@@ -22,3 +22,9 @@ body {
   width: 750px;
   height: 500px;
 }
+
+@media (max-width: 640px) {
+  .panflip2 {
+    width: 300px;
+  }
+}
